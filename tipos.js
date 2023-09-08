@@ -29,7 +29,3 @@ console.log(typeof("a"))
 
 console.log([])
 console.log(typeof([]))
-
-
-
-
