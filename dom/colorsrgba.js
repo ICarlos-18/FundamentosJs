@@ -8,9 +8,9 @@ const trans = document.querySelector('#trans');
 function setColor(){
     // rgb(0, 255, 14);
     // rgba(0, 255, 35, 0.5);
-    const redVal = Math.floor((Number(red.value)*255)/100);
-    const greenVal = Math.floor((Number(green.value)*255)/100);
-    const blueVal = Math.floor((Number(blue.value)*255)/100);
+    const redVal = red.value;
+    const greenVal = green.value;
+    const blueVal = blue.value;
     const transVal = trans.value/100;
     //const rgbaColor = `rgb(${ redVal }, ${ greenVal }, ${ blueVal }, ${ transVal })`;//
     const rgbaColor = `rgba(${ redVal }, ${ greenVal }, ${ blueVal }, ${ transVal })`;
